@@ -7,7 +7,7 @@
 
 h1 {
   font-size: 3.5rem; 
-  color: #fffffe;
+  color: black;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -23,8 +23,29 @@ li {
   line-height: 2.5;
 }
 
+a {
+  color: #f25f4c;
+}
 
+body {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F020%2F693%2F799%2Fnon_2x%2Fsubtle-gradient-background-with-pastel-colour-free-vector.jpg&f=1&nofb=1&ipt=dbed2d625a88e0ae4a611d1a41d75d7f95e021c4bc2af35b5cd12468ccabfab2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+img {
+  opacity: 0.7; /* 70% opacity */
+  height: 500px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
 
 /* no touchy */
 ul, ol {
